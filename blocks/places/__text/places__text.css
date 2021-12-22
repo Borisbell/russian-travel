@@ -1,5 +1,6 @@
 .places__text{
-  width: 484px;
+  max-width: 484px;
+  box-sizing: border-box;
 }
 
 .places__text_paragraph{
@@ -10,4 +11,28 @@
   font-size: 18px;
   line-height: 1.6;
   color: #FFF;
+}
+
+.places__text_paragraph:last-child{
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:1280px) {
+  .places__text{
+    position: relative;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .places__text_paragraph{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .places__text{
+    width: calc(100% - 32px);
+    margin: 0 16px 32px 16px;
+  }
 }

@@ -1,9 +1,19 @@
 .places__list-row{
   display: flex;
   flex-direction: row;
-  margin-bottom: 40px;
 }
 
 .places__list-row_top{
   align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width:540px) {
+  .places__list-row{
+    flex-direction: column;
+  }
+
+  .places__list-row_top{
+    align-items: flex-start;
+  }
 }

@@ -12,3 +12,19 @@
 .footer__links_item:last-child{
   margin-right: 0;
 }
+
+@media screen and (max-width:768px) {
+  .footer__links{
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+
+  .footer__links_item{
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .footer__links_item:last-child{
+    margin-bottom: 0;
+  }
+}
