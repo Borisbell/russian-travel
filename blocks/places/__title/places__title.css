@@ -1,0 +1,11 @@
+.places__title{
+  margin: 0;
+  margin-right: 40px;
+  padding: 0;
+  width: 460px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 76px;
+  color: #FFF;
+}

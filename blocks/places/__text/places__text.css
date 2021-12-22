@@ -1,0 +1,13 @@
+.places__text{
+  width: 484px;
+}
+
+.places__text_paragraph{
+  margin: 0;
+  margin-bottom: 26px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #FFF;
+}
