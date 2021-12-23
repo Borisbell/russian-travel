@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.intro__list_param{
+.intro__list-param{
   padding: 0;
   font-family: "Inter", sans-serif;
   font-weight: bold;
@@ -15,6 +15,6 @@
   line-height: 1.5;
 }
 
-.intro__list_num{
+.intro__list-num{
   font-weight: normal;
 }

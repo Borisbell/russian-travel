@@ -1,4 +1,4 @@
-.places__website_url-heading{
+.places__website-url-heading{
   margin: 0;
   margin-bottom: 12px;
   padding: 0;
@@ -10,7 +10,7 @@
   color: #AAA;
 }
 
-.places__website_link{
+.places__website-link{
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
@@ -21,22 +21,22 @@
   color: #FFF;
 }
 
-.places__website_link:hover{
+.places__website-link:hover{
   opacity: 0.8;
 }
 
 @media screen and (max-width:768px) {
-  .places__website_link{
+  .places__website-link{
     margin-bottom: 32px;
   }
 }
 
 @media screen and (max-width:540px) {
-  .places__website_url-heading{
+  .places__website-url-heading{
     margin: 0 16px 12px 16px;
   }
 
-  .places__website_link{
+  .places__website-link{
     margin: 0 16px 32px 16px;
   }
 }

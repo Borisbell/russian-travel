@@ -9,11 +9,11 @@
   line-height: 1.16;
 }
 
-.header__lang-links_item{
+.header__lang-links-item{
   margin-right: 18px;
 }
 
-.header__lang-links_item:last-child{
+.header__lang-links-item:last-child{
   margin-right: 0;
 }
 

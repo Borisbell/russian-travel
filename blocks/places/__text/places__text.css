@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-.places__text_paragraph{
+.places__text-paragraph{
   margin: 0;
   margin-bottom: 26px;
   font-family: "Inter", sans-serif;
@@ -13,7 +13,7 @@
   color: #FFF;
 }
 
-.places__text_paragraph:last-child{
+.places__text-paragraph:last-child{
   margin-bottom: 0;
 }
 
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width:768px) {
-  .places__text_paragraph{
+  .places__text-paragraph{
     font-size: 16px;
   }
 }
