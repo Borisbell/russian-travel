@@ -1,0 +1,18 @@
+.places__text-paragraph{
+  margin: 0;
+  margin-bottom: 26px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.places__text-paragraph:last-child{
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+  .places__text-paragraph{
+    font-size: 16px;
+  }
+}

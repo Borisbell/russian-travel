@@ -4,15 +4,27 @@
   padding-bottom: 80px;
 }
 
+.places__item:last-child{
+  padding-bottom: 92px;
+}
 
-@media screen and (max-width:1024px) {
+
+@media screen and (max-width:1023px) {
   .places__item{
     padding-bottom: 72px;
+  }
+
+  .places__item:last-child{
+    padding-bottom: 90px;
   }
 }
 
 @media screen and (max-width:540px) {
   .places__item{
     padding-bottom: 50px;
+  }
+
+  .places__item:last-child{
+    padding-bottom: 66px;
   }
 }

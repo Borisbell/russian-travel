@@ -1,10 +1,9 @@
-@font-face {
-	src: url('../vendors/Inter-Regular.woff');
-	font-family: 'Inter';
-}
-
-@font-face {
-	src: url('../vendors/Inter-Bold.woff');
-	font-family: 'Inter';
-	font-weight: bold;
+.page {
+  background-color: var(--bg-dark-color);
+  color: var(--font-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
