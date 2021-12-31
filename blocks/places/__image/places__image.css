@@ -9,6 +9,7 @@
     width: 50%;
     height: 50%;
     margin-right: 32px;
+    flex-shrink: 0; /* 4 Firefox */
   }
 }
 
