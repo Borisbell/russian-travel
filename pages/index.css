@@ -29,9 +29,9 @@
 /* places */
 @import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/places/__list-row/places__list-row.css);
-@import url(../blocks/places/__list-row/_top/places__list-row_top.css);
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__website/places__website.css);
 @import url(../blocks/places/__website-url-heading/places__website-url-heading.css);
 @import url(../blocks/places/__website-link/places__website-link.css);
 @import url(../blocks/places/__image/places__image.css);

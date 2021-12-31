@@ -1,6 +1,11 @@
 .places__list-row{
   display: flex;
   flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.places__list-row:last-child{
+  margin-bottom: 0;
 }
 
 @media screen and (max-width:540px) {
